@@ -1,6 +1,10 @@
 {
-  "name": "Draw app",
-  "private": true,
+  "name": "create-tech100x-turbo-app",
+  "version": "1.0.0",
+  "main": "bin.js",
+  "bin": {
+    "create-tech100x-turbo-app": "./bin.js"
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",

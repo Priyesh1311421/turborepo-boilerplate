@@ -23,7 +23,7 @@ if (!projectName) {
 }
 
 const gitCheckoutCommand = `git clone --depth 1 ${repoUrl} ${projectName}`;
-const installDepsCommand = `cd ${projectName} && npm install`;
+const installDepsCommand = `cd ${projectName} && pnpm install`;
 
 console.log(`Cloning the repository with name ${projectName}`);
 const checkedOut = runCommand(gitCheckoutCommand);

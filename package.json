@@ -1,6 +1,6 @@
 {
   "name": "create-tech100x-turbo-app",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "bin.js",
   "bin": {
     "create-tech100x-turbo-app": "./bin.js"
